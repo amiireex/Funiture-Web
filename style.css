@@ -323,7 +323,7 @@ html {
     background: rgb(204, 17, 17);
     color: var(--light);
 }
-@media (max-width:991px) {
+@media (max-width:992px) {
     .header {
         display: flex;
         justify-content: space-between;
@@ -414,19 +414,19 @@ html {
         height: 50%;
     } 
 }
-    @media (max-width:700px) {
+    @media (max-width:768px) {
         .header .nav-bar {
             display: none;
         }
         .section-1 .couch img {
             height: 100%;
-            width: 350px;
+            width: 450px;
         }
         .section-1 .couch {
-            top: 330px;
+            top: 400px;
         }
         .section-1 .first-app-svg img {
-            width: 100%;
+            width: 85%;
         }
         .section-1 .first-app-svg {
             top: 90px;
@@ -489,4 +489,35 @@ html {
             display: flex;
             flex-direction: column;
         }
+    }
+    @media (max-width: 480px) {
+        .section-1 .couch img {
+            height: 100%;
+            width: 350px;
+        }
+        .section-1 .couch {
+            top: 400px;
+        }
+        .section-1 .couch {
+            top: 450px;
+        }
+        .section-1 .first-app-svg img {
+            width: 100%;
+        }
+        .section-1 .first-app-svg {
+            top: 210px;
+        }
+        .section-1 .download {
+            top: 115%;
+        }
+        .section-4 .table img{
+            width: 350px;
+         }
+         .section-4 .table{
+            margin-left: 8%;
+        }
+        .section-5 .contact-us {
+            width: 70%;
+            height: 50%;
+        } 
     }
